@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2019-06-13 18:46:16
 ---
-edit 1 - visual <img class="alignnone size-full wp-image-225904" src="https://qadevblogs.wpengine.com/visualstudio/wp-content/uploads/sites/4/2019/06/8420.ping_.png" alt="" width="907" height="503" />   <pre class="lang:default mark:3,6 decode:true ">@page "/counter"
+edit 1 - visual <img class="alignnone size-full wp-image-225904" src="https://qadevblogs.wpengine.com/visualstudio/wp-content/uploads/sites/4/2019/06/8420.ping_.png" alt="" width="907" height="503" />   <pre class="lang:default mark:5,9-12 decode:true">@page "/counter"
 
 &lt;h1&gt;Counter&lt;/h1&gt;
 
