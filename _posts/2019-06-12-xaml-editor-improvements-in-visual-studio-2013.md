@@ -4,11 +4,11 @@ post_title: >
   Azure IoT Tools help you connect to
   Azure IoT Hub in 1 minute in Visual
   Studio Code
-author: Serhii Rohatin
+author: Visual Studio Blog
 post_excerpt: ""
 layout: post
 permalink: >
-  http://devblogs.microsoft.com/nuget/azure-iot-tools-help-you-connect-to-azure-iot-hub-in-1-minute-in-visual-studio-code/
+  https://qadevblogs.wpengine.com/visualstudio/xaml-editor-improvements-in-visual-studio-2013/
 published: true
 post_date: 2019-06-12 08:00:14
 ---
