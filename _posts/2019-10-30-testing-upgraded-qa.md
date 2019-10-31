@@ -7,7 +7,7 @@ layout: post
 permalink: >
   https://qadevblogs.wpengine.com/visualstudio/testing-upgraded-qa/
 published: true
-post_date: 2019-06-22 18:46:16
+post_date: 2019-10-30 18:46:16
 ---
 Most Visual Studio extension authors publish their extensions to the public Marketplace to allow everyone to install them and benefit from the large and open ecosystem. However, some companies create extensions for internal use only. A private gallery allows them to distribute the extensions easily with the same auto-update capabilities enjoyed by any public Marketplace extension. And now, we've streamlined the process even more so that you can easily create a private gallery for your team or organization. <img class="alignnone size-full wp-image-225679" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2019/06/private-gallery-online-tab.png" alt="" width="933" height="382" /> Visual Studio 2010 introduced support for private galleries, but few used them due to lacking samples and tooling. A lot has changed since then and the private gallery support has seen several updates to support extension packs and other more recent features. 
 ## The anatomy of a private gallery A private gallery is an
