@@ -1,0 +1,19 @@
+---
+ID: 226561
+post_title: 'Azure IoT Tools September Update: Azure IoT Edge remote debug and more!'
+author: Jun Han
+post_excerpt: ""
+layout: post
+permalink: >
+  https://qadevblogs.wpengine.com/visualstudio/azure-iot-tools-september-update-azure-iot-edge-remote-debug-and-more/
+published: true
+post_date: 2019-09-30 08:00:44
+---
+Welcome to the September update of Azure IoT Tools! In this September release, you will see the improved remote debugging experience and Azure IoT Device Provisioning Service support in Visual Studio. Additionally, an iotedge-compose tool has been released for you to port compose-based apps to Azure IoT Edge. **Debug Azure IoT Edge C# remote Linux container** With the [version 16.3 release][1] of Visual Studio 2019, the remote debugging experience in Linux docker containers has been improved. The feature is intended to help generic container debugging. We can leverage it in Azure IoT Edge module scenario to help developers debug remote Azure IoT Edge C# Linux module container with ease. For more details, you can check out this [blog post][2] to see how to use this feature in your Azure IoT Edge module debugging with the step-by-step instructions. <img class="alignnone size-full wp-image-226562" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2019/09/1.png" alt="" width="1137" height="235" /> **Support Azure IoT Hub Device Provisioning Service in Cloud Explorer** The [Azure IoT Hub Device Provisioning Service][3] is a helper service for Azure IoT Hub that enables zero-touch, just-in-time provisioning to the correct Azure IoT hub without requiring human intervention, enabling customers to provision millions of devices in a secure and scalable manner. We’re pleased to announce that Visual Studio Cloud Explorer now supports the Azure IoT Hub Device Provisioning Service. You can now access your Azure IoT Hub Device Provisioning Services without leaving Visual Studio. You can check out this [blog post][4] for more details. <img class="alignnone size-full wp-image-226563" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2019/09/2.png" alt="" width="624" height="700" /> **Convert Docker Compose projects to Azure IoT Edge solutions** If you are a container expert, you may want to port your existing Docker Compose application to Azure IoT Edge. We are glad to introduce [*iotedge-compose*][5] to help you convert your Docker Compose project to an Azure IoT Edge solution. iotedge-compose is a CLI tool written in Python. After you have installed Python, all you need to do is to install it through pip: `pip install iotedge-compose` <img class="alignnone size-full wp-image-226564" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2019/09/3.png" alt="" width="728" height="349" /> Then, check out this [blog post][6] to see how to convert your Docker Compose file or project. **Try it out** Please don’t hesitate to give it a try! If you have any feedback, feel free to reach us at <https://github.com/microsoft/vscode-azure-iot-tools/issues>. We will continuously improve our IoT developer experience to empower every IoT developers on the planet to achieve more!
+
+ [1]: https://visualstudio.microsoft.com/downloads/
+ [2]: https://devblogs.microsoft.com/iotdev/debug-azure-iot-edge-c-remote-linux-module-container-with-visual-studio-2019-version-16-3/
+ [3]: https://docs.microsoft.com/azure/iot-dps/
+ [4]: https://devblogs.microsoft.com/iotdev/visual-studio-cloud-explorer-now-supports-azure-iot-hub-device-provisioning-service/
+ [5]: https://pypi.org/project/iotedge-compose/
+ [6]: https://devblogs.microsoft.com/iotdev/convert-your-docker-compose-project-to-azure-iot-edge-solution/
