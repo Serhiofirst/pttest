@@ -9,4 +9,4 @@ permalink: >
 published: true
 post_date: 2020-02-24 05:52:25
 ---
-Find All References, Rename Symbol refactoring, support for localization, new navigation breadcrumb controls, and improvements to the Outline view are only a few of the improvements in the November 2019
+ <pre class="prettyprint">testing code</pre> Find All References, Rename Symbol refactoring, support for localization, new navigation breadcrumb controls, and improvements to the Outline view are only a few of the improvements in the November 2019
