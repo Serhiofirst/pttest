@@ -1,7 +1,7 @@
 ---
 ID: 227433
 post_title: 'Visual Studio for Mac: Take Control of Your IDE with Keybindings'
-author: Cody Beyer
+author: Radhika
 post_excerpt: ""
 layout: post
 permalink: >
