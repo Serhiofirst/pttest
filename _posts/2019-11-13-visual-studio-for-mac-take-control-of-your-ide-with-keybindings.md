@@ -11,10 +11,9 @@ post_date: 2019-11-13 09:57:53
 ---
 The great debates in computing all have one common theme. Whether it is tabs vs. spaces or Vi vs. Emacs, the thread linking all these debates together is keyboard efficiency. The truth is, we spend tons of hours working in an application, and keyboard shortcuts become automatic to us, the same muscle memory that great pianists or sports players have. If you suddenly give a virtuoso pianist a piano where the keys are half as wide and the sharp/flat keys are below as opposed to above the natural keys, they will struggle to make even the most basic melodies while they learn the new arrangement. Likewise, when it comes to keyboard shortcuts in your favorite IDE, any change can be disorienting quickly. Luckily, Visual Studio for Mac offers a ton of customizations to key bindings that will allow you get configure your key combinations to your liking.
 
-    # TestModule.psm1
+    # TestModule.psm1  
+    function F1 { } function F2 { } function F3 { }
     
-
-function F1 { } function F2 { } function F3 { }
 
 # TestModule.psd1
 
@@ -82,6 +81,3 @@ F3</pre>
             currentCount++;
         }
     }
-    
-
-<img class="size-full wp-image-227143 aligncenter" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2019/10/ide-tour-2019-keyboard-shortcut-1.png" alt="" width="1664" height="1106" /> **More Customizing** While setting a default keymap is certainly handy, it doesn’t solve all circumstances. There may be custom mappings that you’ve used in other IDEs, or specific commands that are outside the bounds of the array of preconfigured options. With the Key Bindings selection window, you can map every possible command within the IDE to a specific key. To see the Key Binding options, select **Visual Studio > Preferences > Environment > Key Bindings**. <img class="alignnone size-full wp-image-227439" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2019/11/settings-kb.png" alt="" width="2144" height="1628" />
